@@ -1,16 +1,114 @@
-# React + Vite
+# 🌐 Chirag Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. It showcases my projects, skills, education, and contact information in a clean and interactive interface.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Portfolio:** https://chirag-portfolio-rouge-eight.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎨 Modern dark-themed UI
+- 📱 Fully responsive design
+- ⚡ Smooth animations with Framer Motion
+- 👨‍💻 About Me section
+- 🛠️ Skills section with technology icons
+- 📂 Featured Projects
+- 🎓 Education & Journey timeline
+- 📄 Resume download
+- 📧 Contact section
+- 🔗 GitHub & LinkedIn integration
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+### Icons
+- React Icons
+- Lucide React
+
+### Deployment
+- Vercel
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── assets/
+│   ├── images/
+│   └── projects/
+│
+├── components/
+│   ├── layout/
+│   └── sections/
+│
+├── data/
+│
+├── App.jsx
+└── main.jsx
+```
+
+## 📸 Screenshots
+
+### Home
+
+> Add a screenshot here
+
+### Projects
+
+> Add a screenshot here
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/chiragarora07/chirag-portfolio.git
+```
+
+Go to the project folder
+
+```bash
+cd chirag-portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+## 📬 Contact
+
+**Chirag Arora**
+
+📧 Email: chiragarora0710@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/chirag-arora07
+
+🐙 GitHub: https://github.com/chiragarora07
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
