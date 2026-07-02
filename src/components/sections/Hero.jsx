@@ -4,7 +4,7 @@ import profile from "../../assets/images/profile.png";
 
 function Hero() {
   return (
-    <section className="relative min-h-screen bg-slate-950 overflow-hidden pt-28 pb-16">
+    <section className="relative min-h-screen bg-slate-950 overflow-hidden pt-24 md:pt-28 pb-16">
 
       {/* Background Blur */}
       <div className="absolute w-96 h-96 bg-blue-500/20 rounded-full blur-3xl -top-20 -left-20"></div>
@@ -18,8 +18,7 @@ function Hero() {
           <p className="text-blue-400 text-lg font-medium">
             👋 Hello, I'm
           </p>
-
-          <h1 className="text-5xl md:text-7xl font-extrabold text-white mt-3 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white mt-3 leading-tight">
             Chirag Arora
           </h1>
 
@@ -38,10 +37,14 @@ function Hero() {
             className="text-2xl md:text-4xl font-bold text-blue-400 mt-5"
           />
 
-          <p className="text-gray-400 mt-8 leading-8 max-w-xl mx-auto md:mx-0">
-            B.Tech CSE student at NIT Raipur passionate about building
-            scalable web applications using React, Node.js and PostgreSQL.
-          </p>
+          <p className="text-gray-400 mt-6 leading-8 max-w-xl mx-auto md:mx-0 text-base sm:text-lg">
+  B.Tech CSE student at <span className="text-white font-semibold">NIT Raipur</span>
+  passionate about building scalable full-stack web applications using
+  <span className="text-blue-400"> React</span>,
+  <span className="text-blue-400"> Node.js</span>,
+  <span className="text-blue-400"> Express</span>, and
+  <span className="text-blue-400"> PostgreSQL</span>.
+</p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-10 justify-center md:justify-start">
 
@@ -62,7 +65,7 @@ function Hero() {
 
           </div>
 
-          <div className="flex gap-6 mt-10 justify-center md:justify-start text-3xl">
+          <div className="flex gap-8 mt-10 justify-center md:justify-start text-3xl text-gray-300">
 
             <a href="https://github.com/chiragarora07"
                target="_blank"
@@ -87,16 +90,22 @@ function Hero() {
         </div>
 
         {/* Right Side */}
-        <div className="flex justify-center">
+<div className="order-1 md:order-2 flex justify-center mb-10 md:mb-0">
 
-  <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 p-1">
+  <div className="relative">
 
-    <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-8xl">
+    {/* Glow */}
+    <div className="absolute inset-0 rounded-full bg-blue-500 blur-3xl opacity-20"></div>
+
+    {/* Profile */}
+    <div className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 p-1 shadow-2xl">
+
       <img
         src={profile}
         alt="Chirag Arora"
-        className="w-full h-full object-cover rounded-full"
+        className="w-full h-full object-cover rounded-full border-4 border-slate-900"
       />
+
     </div>
 
   </div>
