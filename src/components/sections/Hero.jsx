@@ -4,22 +4,22 @@ import profile from "../../assets/images/profile.png";
 
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-slate-950 overflow-hidden">
+    <section className="relative min-h-screen bg-slate-950 overflow-hidden pt-28 pb-16">
 
       {/* Background Blur */}
       <div className="absolute w-96 h-96 bg-blue-500/20 rounded-full blur-3xl -top-20 -left-20"></div>
       <div className="absolute w-96 h-96 bg-purple-500/20 rounded-full blur-3xl bottom-0 right-0"></div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
 
         {/* Left Side */}
-        <div>
+        <div className="order-2 md:order-1 text-center md:text-left">
 
           <p className="text-blue-400 text-lg font-medium">
             👋 Hello, I'm
           </p>
 
-          <h1 className="text-6xl font-extrabold text-white mt-3">
+          <h1 className="text-5xl md:text-7xl font-extrabold text-white mt-3 leading-tight">
             Chirag Arora
           </h1>
 
@@ -35,15 +35,15 @@ function Hero() {
             wrapper="h2"
             speed={40}
             repeat={Infinity}
-            className="text-3xl font-bold text-blue-400 mt-5"
+            className="text-2xl md:text-4xl font-bold text-blue-400 mt-5"
           />
 
-          <p className="text-gray-400 mt-8 leading-8">
+          <p className="text-gray-400 mt-8 leading-8 max-w-xl mx-auto md:mx-0">
             B.Tech CSE student at NIT Raipur passionate about building
             scalable web applications using React, Node.js and PostgreSQL.
           </p>
 
-          <div className="flex gap-4 mt-10">
+          <div className="flex flex-col sm:flex-row gap-4 mt-10 justify-center md:justify-start">
 
             <a
               href="#projects"
@@ -62,7 +62,7 @@ function Hero() {
 
           </div>
 
-          <div className="flex gap-6 mt-10 text-3xl text-gray-300">
+          <div className="flex gap-6 mt-10 justify-center md:justify-start text-3xl">
 
             <a href="https://github.com/chiragarora07"
                target="_blank"
@@ -89,19 +89,19 @@ function Hero() {
         {/* Right Side */}
         <div className="flex justify-center">
 
-          <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 p-1">
+  <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 p-1">
 
-            <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-8xl">
-              <img
-                src={profile}
-                alt="Chirag Arora"
-                className="w-full h-full object-cover rounded-full"
-              />
-            </div>
+    <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-8xl">
+      <img
+        src={profile}
+        alt="Chirag Arora"
+        className="w-full h-full object-cover rounded-full"
+      />
+    </div>
 
-          </div>
+  </div>
 
-        </div>
+</div>
 
       </div>
 
