@@ -53,16 +53,6 @@ src/
 └── main.jsx
 ```
 
-## 📸 Screenshots
-
-### Home
-
-> Add a screenshot here
-
-### Projects
-
-> Add a screenshot here
-
 ## 🚀 Installation
 
 Clone the repository
